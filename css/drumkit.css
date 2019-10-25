@@ -1,0 +1,54 @@
+body{
+margin: 0px;
+padding: 0px;
+}
+
+
+h1{
+text-align: center;
+padding: 0px;
+
+}
+
+.parent{
+display: grid;
+width: 100%;
+justify-items: center;
+grid-template-columns: 1fr 10fr 1fr;
+transform: translateY(50%);
+
+
+}
+
+div.child{
+border: solid 6px black;
+justify-content: center;
+
+}
+
+div.key-group{
+display: grid;
+grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+
+}
+
+div.key{
+display: inline-block;
+height: 2em;
+width: 2em;
+text-align: center;
+border-radius: 3px;
+transform: translateY(60deg);
+padding: 8px;
+transition: 0.07s all;
+border:  black;
+border-radius: 3px;
+background-color: #c2ca00;
+grid-gap: 2px;
+}
+
+div.playing{
+border: solid rgb(138, 63, 3) 2px;
+box-shadow: 0 0 10px rgb(138, 63, 3);
+transform: scale(1.1);
+}
